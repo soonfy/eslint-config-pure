@@ -32,14 +32,18 @@ npm test
 
 [MIT](LICENSE)
 
-### tool
+### knowledge
 
-1. eslint --> `https://eslint.org/`
+1. [eslint](eslintrc.js) --> `https://eslint.org/`
 
-2. license
+1. [editorconfig](.editorconfig)
+
+1. [travis](.travis.yml)
+
+1. license
 
     > MIT --> `https://opensource.org/licenses/MIT`
 
-3. badge
+1. badge
 
     > shields --> `https://shields.io/`
