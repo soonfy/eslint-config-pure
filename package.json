@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-pure",
+  "version": "1.0.0",
+  "description": "pure eslint config - ESLint Shareable Config",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config eslintrc.js",
+    "cover": "npm run lint && istanbul cover test/config.test.js",
+    "test": "npm run lint && node test/config.test.js",
+    "code": "npm run lint && node test/code.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soonfy/eslint-config-pure.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "pure eslintconfig"
+  ],
+  "author": "soonfy <soonfy@163.com> (https://github.com/soonfy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soonfy/eslint-config-pure/issues"
+  },
+  "homepage": "https://github.com/soonfy/eslint-config-pure#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "istanbul": "^0.4.5"
+  }
+}
