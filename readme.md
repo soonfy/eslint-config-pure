@@ -22,10 +22,16 @@
 npm i -D eslint-config-pure
 ```
 
-### test
+### config test
 
 ```bash
 npm test
+```
+
+### cover test
+
+```bash
+npm run cover
 ```
 
 ### License
@@ -47,3 +53,7 @@ npm test
 1. badge
 
     > shields --> `https://shields.io/`
+
+1. cover
+
+    > istanbul --> `https://www.npmjs.com/package/istanbul`
