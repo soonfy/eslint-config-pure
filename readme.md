@@ -42,4 +42,4 @@ npm test
 
 3. badge
 
-    > shidlds --> `https://shields.io/`
+    > shields --> `https://shields.io/`
