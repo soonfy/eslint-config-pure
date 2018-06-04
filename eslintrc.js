@@ -1,6 +1,7 @@
 // http://eslint.org/docs/user-guide/configuring
 
 module.exports = {
+  root: true,
   parserOptions: {
     'ecmaVersion': 9,
     'sourceType': 'module'
@@ -19,16 +20,9 @@ module.exports = {
     'mongo': true,
     'serviceworker': true
   },
-  globals: {
-    'document': false,
-    'navigator': false,
-    'window': false
-  },
-  plugins: [
-    'import',
-    'node',
-    'promise'
-  ],
+  extends: [],
+  globals: {},
+  plugins: [],
   rules: {
 
     /**
