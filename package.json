@@ -17,6 +17,7 @@
     "url": "git+https://github.com/soonfy/eslint-config-pure.git"
   },
   "keywords": [
+    "pure",
     "eslint",
     "eslintconfig",
     "pure eslintconfig"

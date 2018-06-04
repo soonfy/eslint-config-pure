@@ -34,6 +34,18 @@ npm test
 npm run cover
 ```
 
+### usage
+
+```bash
+touch .eslintrc.js
+```
+
+```js
+module.exports = {
+  extends: 'eslint-config-pure'
+}
+```
+
 ### License
 
 [MIT](LICENSE)

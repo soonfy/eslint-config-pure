@@ -1,7 +1,6 @@
 // http://eslint.org/docs/user-guide/configuring
 
 module.exports = {
-  root: true,
   parserOptions: {
     'ecmaVersion': 9,
     'sourceType': 'module'
@@ -25,7 +24,6 @@ module.exports = {
     'navigator': false,
     'window': false
   },
-  extends: [],
   plugins: [
     'import',
     'node',
@@ -34,9 +32,9 @@ module.exports = {
   rules: {
 
     /**
-     * 
+     *
      * Possible Errors
-     * 
+     *
      */
 
     // 强制 “for” 循环中更新子句的计数器朝着正确的方向移动
@@ -109,9 +107,9 @@ module.exports = {
     'valid-typeof': 2,
 
     /**
-     * 
+     *
      * Best Practices
-     * 
+     *
      */
 
     // 强制 getter 和 setter 在对象中成对出现
@@ -138,7 +136,7 @@ module.exports = {
     'eqeqeq': 2,
     // 要求 for-in 循环中有一个 if 语句
     'guard-for-in': 0,
-    // 禁用 alert、confirm 和 prompt 
+    // 禁用 alert、confirm 和 prompt
     'no-alert': 2,
     // 禁用 arguments.caller 或 arguments.callee
     'no-caller': 2,
@@ -257,18 +255,18 @@ module.exports = {
     'yoda': 2,
 
     /**
-     * 
+     *
      * Strict Mode
-     * 
+     *
      */
 
     // 要求或禁止使用严格模式指令
     'strict': 0,
 
     /**
-     * 
+     *
      * Variables
-     * 
+     *
      */
 
     // 要求或禁止 var 声明中的初始化
@@ -295,11 +293,11 @@ module.exports = {
     'no-unused-vars': 2,
     // 禁止在变量定义之前使用它们
     'no-use-before-define': 2,
-    
+
     /**
-     * 
+     *
      * Node.js and CommonJS
-     * 
+     *
      */
 
     // 强制数组方法的回调函数中有 return 语句
@@ -326,9 +324,9 @@ module.exports = {
     'no-sync': 0,
 
     /**
-     * 
+     *
      * Stylistic Issues
-     * 
+     *
      */
 
     // 在数组开括号后和闭括号前强制换行
@@ -523,9 +521,9 @@ module.exports = {
     'wrap-regex': 0,
 
     /**
-     * 
+     *
      * ECMAScript 6
-     * 
+     *
      */
 
     // 要求箭头函数体使用大括号
