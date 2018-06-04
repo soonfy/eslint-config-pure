@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pure eslint config - ESLint Shareable Config",
   "engines": {
     "node": ">=8.0.0"
