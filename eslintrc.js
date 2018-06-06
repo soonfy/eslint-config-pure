@@ -194,7 +194,7 @@ module.exports = {
     // 禁止在字符串中使用八进制转义序列
     'no-octal-escape': 2,
     // 禁止对 function 的参数进行重新赋值
-    'no-param-reassign': 2,
+    'no-param-reassign': 0,
     // 禁用 __proto__ 属性
     'no-proto': 2,
     // 禁止多次声明同一变量
@@ -364,7 +364,7 @@ module.exports = {
     // 强制标识符的最小和最大长度
     'id-length': [2, {min: 2, max: 40}],
     // 要求标识符匹配一个指定的正则表达式
-    'id-match': [2, '^[a-z]+([A-Z][a-z]+)*$'],
+    'id-match': [2, '^([a-zA-Z][a-z]+)*$'],
     // 强制隐式返回的箭头函数体的位置
     'implicit-arrow-linebreak': [2, 'beside'],
     // 强制使用一致的缩进
@@ -494,7 +494,7 @@ module.exports = {
     // 要求同一个声明块中的变量按顺序排列
     'sort-vars': 0,
     // 强制在块之前使用一致的空格
-    'space-before-blocks': 2,
+    'space-before-blocks': 0,
     // 强制在 function的左括号之前使用一致的空格
     'space-before-function-paren': 2,
     // 强制在圆括号内使用一致的空格

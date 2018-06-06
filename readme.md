@@ -1,6 +1,6 @@
 # eslint-config-pure
 
-[![version](https://img.shields.io/badge/version-v1.0.0-green.svg)](https://github.com/soonfy/eslint-config-pure)
+[![version](https://img.shields.io/badge/version-v1.0.4-green.svg)](https://github.com/soonfy/eslint-config-pure)
 
 [![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/soonfy/eslint-config-pure)
 [![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/soonfy/eslint-config-pure)
