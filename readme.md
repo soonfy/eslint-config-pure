@@ -19,7 +19,7 @@
 ### install
 
 ```bash
-npm i -D eslint eslint-plugin-import eslint-config-pure
+npm i -D eslint eslint-config-pure
 ```
 
 ### config test
